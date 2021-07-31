@@ -1,23 +1,23 @@
 body {
-  background: #fafafa;
-  color: #333333;
+  background: #e9dfda;
+  color: #000000;
   margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: #000000;
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #ab9183;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  color: #edf2f4;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -25,21 +25,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section {
-  background: #ffffff; 
+  background: #d9b9ac; 
   padding: 10px 20px; 
-  border: 1px solid #dddddd;
+  border: 1px solid #000000;
   border-radius: 3px;
   margin-bottom: 20px;
 }
 
 .article-title {
-  color: #444444;
+  color: #000000;
   text-decoration: none;
   
 }
 
 a.article-title:hover {
-  color: #428bca;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -59,11 +59,11 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3
+  border-bottom: 1px solid #000000
 }
 
 .article-metadata a:hover {
-  color: #333;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -82,4 +82,27 @@ a.article-title:hover {
 
 .account-heading {
   font-size: 2.5rem;
+}
+
+.btn-custom {
+  background-color: #e9dfda;
+  border-color: rgb(0, 0, 0);
+}
+
+.btn-outline-custom {
+  border-color: #d9b9ac;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  /*color is text color of button*/
+}
+
+.btn-custom:hover, .btn-outline-custom:hover  {
+  background-color: #d9b9ac ;
+  border-color: rgb(0, 0, 0);
+}
+
+.btn-custom:active, .btn-outline-custom:active {
+  background-color: #d9b9ac ;
+  border:rgb(0, 0, 0);
+  box-shadow: none;
 }
