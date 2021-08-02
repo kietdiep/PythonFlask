@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 .content-section {
   background: #d9b9ac; 
   padding: 10px 20px; 
-  border: 1px solid #000000;
+  border: none;
   border-radius: 3px;
   margin-bottom: 20px;
 }
@@ -105,4 +105,13 @@ a.article-title:hover {
   background-color: #d9b9ac ;
   border:rgb(0, 0, 0);
   box-shadow: none;
+}
+
+a {
+  color: #504f4f;
+  text-decoration: underline;
+}
+
+.list-group-item-custom {
+  background: #e9dfda;
 }
